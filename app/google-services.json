@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "781555387047",
-    "project_id": "remindme-ccb54"
+    "project_number": "863653475427",
+    "project_id": "remindme-c30ec"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:781555387047:android:0ae57bb3613fb3b4",
+        "mobilesdk_app_id": "1:863653475427:android:c41430fc2ec06eeb",
         "android_client_info": {
-          "package_name": "com.reminder"
+          "package_name": "com.RemindMe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "781555387047-blkmt4587dnp2282s3le8s1dqm6ksd47.apps.googleusercontent.com",
+          "client_id": "863653475427-41v0loh2c3pv69tgr3v4n2v9p0h5ml35.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.reminder",
-            "certificate_hash": "3c20c72d4c915ca1c1d41af6c1474feec195fbd9"
+            "package_name": "com.RemindMe",
+            "certificate_hash": "d806490be3e06ee9b4e575930d43d8e9de580f7e"
           }
         },
         {
-          "client_id": "781555387047-lk9p5cos67j2pmnvvhvbbtgkcb2bhd7d.apps.googleusercontent.com",
+          "client_id": "863653475427-1buboficba28rpskehhu8cnl61nlie1o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCAx5Jjs1WFLlLtt_ffCVn9mxC6I72jKd0"
+          "current_key": "AIzaSyD1xAtXu0mEjE9W6PavYLbVNYRYGqiW940"
         }
       ],
       "services": {

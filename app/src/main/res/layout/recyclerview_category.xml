@@ -15,7 +15,7 @@
     android:layout_marginRight="5dp"
     android:background="#ffffff"
     android:elevation="6dp"
-    tools:context="com.reminder.menu.Fragment_InvestmentPlan">
+    tools:context="com.RemindMe.menu.Fragment_InvestmentPlan">
    <!--tools:context="com.example.hitarth.RemindMe.CategoryRecyclerView">-->
 <!--
 

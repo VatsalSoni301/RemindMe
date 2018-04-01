@@ -99,8 +99,8 @@
     </string-array>
 
     <string name="type_to_search">Type to Search</string>
-    <!--<string name="fb_app_id">1883429311871523</string>-->
-    <string name="fb_app_id">1884010731822867</string>
+    <string name="fb_app_id">1559101190824963</string>
+    <!--<string name="fb_app_id">1884010731822867</string> -->
 
     <string name="radiobutton_form_male">Male</string>
     <string name="radiobutton_form_female">Female</string>

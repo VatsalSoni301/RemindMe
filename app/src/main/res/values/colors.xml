@@ -12,6 +12,7 @@
     <color name="colorPrimary_text">#212121</color>
     <color name="colorSecondary_text">#212121</color>
     <color name="black">#000</color>
+    <color name="grey">#707070</color>
 
     <!-- for multispinner -->
     <color name="list_even">#AAAAAA</color>

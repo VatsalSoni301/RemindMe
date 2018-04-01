@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/material_blue_grey_800"
-    tools:context="com.reminder.LoginActivity">
+    tools:context="com.RemindMe.LoginActivity">
 
     <ImageView
         android:layout_width="100dp"
@@ -131,6 +131,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_weight="0.5"
+        android:visibility="gone"
         />
     </LinearLayout>
 </LinearLayout>

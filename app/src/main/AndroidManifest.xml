@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.reminder">
+    package="com.RemindMe">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -14,7 +14,7 @@
 
 
     <application
-        android:name=".utils.AppSingleton"
+        android:name="com.RemindMe.utils.AppSingleton"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,19 +23,19 @@
         android:theme="@style/AppTheme">
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fb_app_id"/>
         <activity
-            android:name=".MainActivity"
+            android:name="com.RemindMe.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         
-        <activity android:name=".ProfilePicActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.RemindMe.ProfilePicActivity" android:screenOrientation="portrait" />
 
         <meta-data
             android:name="android.app.default_searchable"
             android:value="com.menu.SearchResultsActivity"/>
 
         <activity
-            android:name=".menu.SearchResultActivity"
+            android:name="com.RemindMe.menu.SearchResultActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
@@ -51,7 +51,7 @@
                 android:resource="@xml/searchable" />
         </activity>
 
-        <activity android:name=".menu.SearchResultActivity1">
+        <activity android:name="com.RemindMe.menu.SearchResultActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
@@ -64,25 +64,25 @@
                 android:resource="@xml/searchable" />
         </activity>
 
-        <activity android:name=".TestActivity" android:screenOrientation="portrait">
+        <activity android:name="com.RemindMe.TestActivity" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".menu.Activity_AddQuickReminder" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.RemindMe.menu.Activity_AddQuickReminder" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".menu.show_quick_reminders" android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".menu.Activity_PlanDetails"  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.RemindMe.menu.Activity_PlanDetails"  android:theme="@style/AppTheme.NoActionBar"/>
         <service
-            android:name=".menu.MyAlarmService"
+            android:name="com.RemindMe.menu.MyAlarmService"
             android:enabled="true" />
-        <activity android:name=".menu.Activity_AddPlan" />
-        <activity android:name=".menu.Activity_AddPlan2" />
-        <receiver android:name=".menu.MyReceiver">
+        <activity android:name="com.RemindMe.menu.Activity_AddPlan" />
+        <activity android:name="com.RemindMe.menu.Activity_AddPlan2" />
+        <receiver android:name="com.RemindMe.menu.MyReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".menu.NotificationBar" />
-        <activity android:name=".menu.Individual_Statistics" />
-        <activity android:name=".LoginActivity" android:screenOrientation="portrait" />
-        <activity android:name=".RegisterActivity" android:screenOrientation="portrait"></activity>
+        <receiver android:name="com.RemindMe.menu.NotificationBar" />
+        <activity android:name="com.RemindMe.menu.Individual_Statistics" />
+        <activity android:name="com.RemindMe.LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.RemindMe.RegisterActivity" android:screenOrientation="portrait"></activity>
         <activity
             android:screenOrientation="portrait"
             android:name="com.facebook.FacebookActivity"
@@ -91,7 +91,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             tools:replace="android:theme"
             />
-        <activity android:name=".menu.SplashScreen">
+        <activity android:name="com.RemindMe.menu.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/material_blue_grey_800"
-    tools:context="com.reminder.RegisterActivity">
+    tools:context="com.RemindMe.RegisterActivity">
 
   <!--  <android.support.v7.widget.Toolbar
         android:id="@+id/mytoolbar"

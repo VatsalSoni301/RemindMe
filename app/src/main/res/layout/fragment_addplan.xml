@@ -91,7 +91,7 @@
                        android:layout_width="150dp"
                        android:layout_height="wrap_content" />   -->
 
-                <com.reminder.multispinner.MultiSpinnerSearch
+                <com.RemindMe.multispinner.MultiSpinnerSearch
                     android:id="@+id/searchMultiSpinner"
                     android:layout_width="165dp"
                     android:layout_height="wrap_content"
